@@ -15,9 +15,9 @@ from telegram.ext import Application, CommandHandler, MessageHandler, ContextTyp
 logging.basicConfig(level=os.getenv("LOG_LEVEL", "INFO"))
 log = logging.getLogger("music-web")
 # Credentials and chat IDs must be supplied by the host, never hard-coded.
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
+TOKEN = os.getenv("8890651987:AAEttmWhVnWo9lfIvdVwR1TnbZRmyPDLmEQ", "").strip()
 try:
-    STORAGE_CHAT_ID = int(os.getenv("TELEGRAM_STORAGE_CHAT_ID", "").strip())
+    STORAGE_CHAT_ID = int(os.getenv("5573802067", "").strip())
 except (TypeError, ValueError):
     STORAGE_CHAT_ID = None
 DB_PATH = os.getenv("DB_PATH", "/data/music.db")
